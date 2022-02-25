@@ -1,11 +1,64 @@
 :root {
     --background-color: rgb(216, 230, 237);
     --text-color: rgb(0, 0, 0);
-    --bot-message: rgb(56, 182, 255);
-    --user-message: rgb(232, 236, 239);
+    --font: 'Roboto', sans-serif;
 }
 
 * {
     margin: 0;
     box-sizing: border-box;
+}
+
+/* Outer structure elements */
+.container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+    display: flex;
+}
+.content {
+    width: 60%;
+    padding: 2rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: var(--font);
+}
+.chatbot {
+    width: 40%;
+    padding: 5rem 6rem 2rem 2rem;
+}
+
+/* Individual items */
+#logo {
+    height: 8rem;
+}
+
+.title {
+    margin: 1rem;
+}
+.title h1 {
+    margin-bottom: 3rem;
+    font-size: 8vh;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.title h3 {
+    font-size: 3vh;
+    font-weight: normal;
+    word-spacing: 3px;
+}
+
+.social-icon {
+    height: 2rem;
+    margin: 1rem;
+}
+
+/* Temporary placeholder for chatbot */
+.temp {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
 }
