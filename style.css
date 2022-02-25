@@ -1,0 +1,11 @@
+:root {
+    --background-color: rgb(216, 230, 237);
+    --text-color: rgb(0, 0, 0);
+    --bot-message: rgb(56, 182, 255);
+    --user-message: rgb(232, 236, 239);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
