@@ -55,10 +55,8 @@
     margin: 1rem;
 }
 
-/* Temporary placeholder for chatbot */
-.temp {
+.chatbot-agent {
     height: 100%;
     width: 100%;
-    background-color: white;
     border-radius: 20px;
 }
