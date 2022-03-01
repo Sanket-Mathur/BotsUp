@@ -2,6 +2,9 @@
     --background-color: rgb(216, 230, 237);
     --text-color: rgb(0, 0, 0);
     --font: 'Roboto', sans-serif;
+    --content-font-size: 2.8vh;
+    --heading-font-size: 8vh;
+    --social-icon-size: 4vh;
 }
 
 * {
@@ -40,21 +43,19 @@
 }
 .title h1 {
     margin-bottom: 3rem;
-    font-size: 8vh;
+    font-size: var(--heading-font-size);
     word-spacing: 5px;
     letter-spacing: 1px;
 }
 .title h3 {
-    font-size: 3vh;
+    font-size: var(--content-font-size);
     font-weight: normal;
     word-spacing: 3px;
 }
-
 .social-icon {
-    height: 2rem;
-    margin: 1rem;
+    height: var(--social-icon-size);
+    margin: 0 2vw 0 1rem;
 }
-
 .chatbot-agent {
     height: 100%;
     width: 100%;
